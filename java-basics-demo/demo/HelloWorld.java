@@ -3,7 +3,7 @@ package demo;
 public class HelloWorld {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Hello World in Java");
+		System.out.println("Hello World demo program");
 
 	}
 }
