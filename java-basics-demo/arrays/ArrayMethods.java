@@ -34,6 +34,23 @@ public class ArrayMethods {
 			System.out.println(num);
 		}
 		
+		String[] stringArray={"J","A","Y","A","P","R","A","K","A","S","H"}; 
+		System.out.println("Array before sort");
+		for(String num: stringArray)
+		{
+			System.out.println(num);
+		}
+		
+		Arrays.sort(stringArray);
+		System.out.println("Array after sort");
+		for(String num: stringArray)
+		{
+			System.out.println(num);
+		}
+		
+		String[] stringArray1={"J","A","Y","A","P","R","A","K","A","S","H"};
+		String[] stringArray2={"J","A","Y","A","P","R","A","K","A","S","H"};
+		System.out.println(Arrays.equals(stringArray1, stringArray2));
 	}
 
 }
